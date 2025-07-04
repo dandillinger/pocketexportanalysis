@@ -1,0 +1,45 @@
+# Planning documents (private)
+docs/planning/
+
+# Reference data (contains sample files that may be sensitive)
+docs/reference/
+
+# Common development files
+.DS_Store
+*.log
+full_export.log
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Pocket export data (DO NOT COMMIT PERSONAL DATA)
+raw_data/
+parsed_data/
+csv_exports/
+
+# Test and development artifacts
+.pytest_cache/
+.mypy_cache/
+.benchmarks/
+.coverage
+bandit-report.json
+
+# Temporary files
+*.tmp
+*.temp
+temp_* 
