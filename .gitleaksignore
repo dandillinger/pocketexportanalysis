@@ -1,0 +1,3 @@
+# gitleaks false positives, triaged in projects migration/BATCH.md note 9 (projects US-133).
+# Format: commit:file:rule:line. No secret values.
+88e37606810e7145c93e300acfd1c7d1d99aa9ba:tests/test_authentication.py:generic-api-key:22
